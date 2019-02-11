@@ -15,10 +15,10 @@ const audio2 = new Audio("typekey2.mp3");
 const audio3 = new Audio("typespace.mp3");
 
 function sound() {
-  audio1.play();
-  document.getElementById("typekey1.mp3");
-  audio1.onended = function() {
-    audio1.play();
+  audio2play();
+  document.getElementById("typekey2.mp3");
+  audio2.onended = function() {
+    audio2.play();
   };
 }
 sound();
