@@ -15,7 +15,7 @@ const audio2 = new Audio("typekey2.mp3");
 const audio3 = new Audio("typespace.mp3");
 
 function sound() {
-  audio2play();
+  audio2.play();
   document.getElementById("typekey2.mp3");
   audio2.onended = function() {
     audio2.play();
